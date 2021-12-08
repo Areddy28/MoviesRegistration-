@@ -1,0 +1,41 @@
+﻿@model Movies
+
+@using (Html.BeginForm("Index", "Movies", FormMethod.Post))
+
+{
+<div class="centerDiv">
+    <h3>Welcome Please add a new Movie</h3>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div>
+        @Html.LabelFor(t => t.Id)
+        @Html.TextBoxFor(t => t.Id)
+    </div>
+
+    <div>
+        @Html.LabelFor(t => t.Title)
+        @Html.TextBoxFor(t => t.Title)
+        @Html.ValidationMessageFor(t => t.Title, "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.LabelFor(t => t.Genre)
+        @Html.ValidationMessageFor(t => t.Genre, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div>
+        @Html.LabelFor(t => t.Year)
+        @Html.TextBoxFor(t => t.Year)
+    </div>
+
+    <div>
+        @Html.LabelFor(t => t.Runtime)
+        @Html.TextBoxFor(t => t.Runtime)
+    </div>
+
+    <input class="submit" type="submit" value="Submit" />
+
+</div>
+
+}

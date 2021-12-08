@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "QODF6QJs3wBHRpLzPFT7il3ujwtEaj7An8Vi6KLq/i8uhe5amkKrSFYMjaD4AGliw6JLQUL4M6U28pYRXBV14w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\areddy1\\source\\repos\\MoiveDataBase\\MoiveDataBase\\MoiveDataBase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\areddy1\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\areddy1\\.nuget\\packages\\mysqlconnector\\2.1.0\\mysqlconnector.2.1.0.nupkg.sha512",
+    "C:\\Users\\areddy1\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\areddy1\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
