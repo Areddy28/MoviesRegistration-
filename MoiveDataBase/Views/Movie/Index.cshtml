@@ -1,7 +1,22 @@
-﻿@model Movies
+﻿@model IEnumerable<Movies>
 
-<p>@Model.Id</p>
-<p>@Model.Title</p>
-<p>@Model.Genre</p>
-<p>@Model.Runtime</p>
-<p>@Model.Year</p> 
+
+@foreach (Movies m in Model)
+
+{
+    <div style="border: solid 2px black">
+        <p>Title: @m.Title.</p>
+        <p>Movie Id: @m.Id</p>
+        <p>Genre: @m.Genre</p>
+        <p>Release Year: @m.Year</p>
+        <p>Runtime: @m.Runtime</p>
+        @*asp-route-varname: this allows us to pass parameters into a link, and it should match the parameter for the action
+        *@
+        <a asp-action="Details" asp-controller="Home" asp-route-id="@m.Id"><p>Details</p></a>
+        <a asp-action="Delete" asp-controller="Home" asp-route-id="@m.Id"><p>Delete</p></a>
+        <a asp-action="Edit" asp-controller="Home" asp-route-id="@m.Id"><p>Edit</p></a>
+
+    </div>
+}
+
+<a asp-action="Create" asp-controller="Home">Create New Movie</a> 

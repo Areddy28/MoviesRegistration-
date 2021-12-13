@@ -40,5 +40,9 @@ C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.
 C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\MoiveDataBase.dll
 C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\MoiveDataBase.pdb
 C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\MoiveDataBase.genruntimeconfig.cache
-C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Registration.cshtml.g.cs
-C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Result.cshtml.g.cs
+C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Create.cshtml.g.cs
+C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Delete.cshtml.g.cs
+C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Details.cshtml.g.cs
+C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Edit.cshtml.g.cs
+C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registration.cshtml.g.cs
+C:\Users\areddy1\source\repos\MoiveDataBase\MoiveDataBase\obj\Debug\netcoreapp3.1\Razor\Views\Home\Result.cshtml.g.cs
